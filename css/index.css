@@ -4,6 +4,12 @@
     --main-color: black;
 }
 
+body {
+    max-width: 980px;
+    margin: auto;
+    min-width: 500px;
+}
+
 header {
     margin: 0;
     padding: 0;
@@ -16,14 +22,14 @@ header h1 {
     color: var(--main-color);
 }
 
-header form {
+header .dandruff {
     display: flex;
     padding: 0;
     list-style-type: none;
     justify-content: space-around;
 }
 
-header form p {
+header form p input, img {
     margin: 0; 
     padding: 0; 
     border: 0; 
@@ -31,16 +37,45 @@ header form p {
     background-color: transparent; 
 }
 
-header form p {
-    color: var(--main-color);
 }
 
-header form img {
+ header .dandruff input[type="search"] {
+    border: 1px double black;
+    border-collapse: collapse;
+}
+
+header .dandruff input[value="About"] {
+    border-left: 2px solid #ccc; 
+    margin-left: 1px;
+    padding-left: 10px;
+}
+
+header .dandruff input[value="Shop"] {
+    border-left: 2px solid #ccc; 
+    margin-left: 1px;
+    padding-left: 10px;
+}
+
+header .dandruff input[value="Help"] {
+    border-left: 2px solid #ccc; 
+    margin-left: 1px;
+    padding-left: 10px;
+}
+
+header .dandruff input[value="Your Card"] {
+    background: url(../img/telega.jpg) no-repeat left;
+    background-size: 20px 20px;
+    width: 150px;
     height: 30px;
-    width: 30px;
+    font-size: 20px;
+    color: #f9e491;
+    background-color: #3c3b3b;
 }
 
-
-header form {
-    position: relative;
+header .dandruff input[type="search"] {
+    background: url(../img/dandruff.jpg) no-repeat right;
+    background-size: 15px 15px;
+    height: 30px;
+    width: 150px;
+    border: 1px solid black;
 }
