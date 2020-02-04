@@ -7,7 +7,6 @@
 body {
     max-width: 980px;
     margin: auto;
-    min-width: 500px;
 }
 
 header {
@@ -78,4 +77,11 @@ header .dandruff input[type="search"] {
     height: 30px;
     width: 150px;
     border: 1px solid black;
+}
+
+@media (max-width: 500px) {
+    header .dandruff {
+        display: flex;
+        flex-wrap: wrap;
+    }
 }
