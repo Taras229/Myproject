@@ -93,6 +93,14 @@ div h2, section h2 {
     color: var(--main-color);
 }
 
+.btn-dark {
+    margin-top: 15px;
+}
+.email {
+    display: flex;
+    justify-content: space-around;
+}
+
 .btn {
     position: relative;
     left: 50%;
@@ -110,16 +118,21 @@ div p, section p {
     color: var(--main-color);
 }
 
-.email div { 
+/* .email div { 
     display:inline-block;
     padding: 25px;
-}/*потрібна допомога не зміщуеться в ширину*/
+}потрібна допомога не зміщуеться в ширину */
 
 footer {
     font-family: 'Rajdhani', sans-serif;
-    font-size: 2rem;
+    font-size: 1rem;
     text-align: center;
     color: var(--main-color);
+}
+
+.bigbob {
+    display: flex;
+    flex-direction: row;
 }
 
 
