@@ -4,10 +4,10 @@
     --main-color: black;
 }
 
-body {
+/* body {
     max-width: 980px;
     margin: auto;
-}
+} */
 
 header {
     margin: 0;
@@ -86,7 +86,7 @@ header .dandruff input[type="search"] {
     }
 }
 
-div h2 {
+div h2, section h2 {
     font-family: 'Rajdhani', sans-serif;
     font-size: 3rem;
     text-align: center;
@@ -103,7 +103,7 @@ hr{
   border:1px solid rgb(59, 58, 133);
 }
 
-div p {
+div p, section p {
     font-family: 'Rajdhani', sans-serif;
     font-size: 2rem;
     text-align: center;
@@ -114,5 +114,12 @@ div p {
     display:inline-block;
     padding: 25px;
 }/*потрібна допомога не зміщуеться в ширину*/
+
+footer {
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 2rem;
+    text-align: center;
+    color: var(--main-color);
+}
 
 
